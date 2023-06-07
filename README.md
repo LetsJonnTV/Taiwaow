@@ -79,7 +79,7 @@ Benutzen:
 
 Ueber Mich:
 
-    Hallo ich bin Jonn und 15 jahre alt. Ich programmiere seit dem ich 5 bin.
+    Hallo ich bin Jonn und 15 jahre alt. Ich programmiere seit dem ich 8 bin.
     Wenn dir meine arbeit gefällt gebe mir gerne ein feedback!
     Danke füür deine unterstützung.
 
