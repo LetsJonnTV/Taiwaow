@@ -1,5 +1,19 @@
 # Taiwaow
 
+Ueber das Tool:
+
+    Mein ziel war es ein tool bzw ein plugin zu entwickeln,
+    was alle wichtigen DeepLearning/MaschinLearning plugins
+    und funktionen hat. Um schnellst möglich ein stabiles Model
+    zu haben.
+    Schaue es dir gerne mal an. In zukunft folgen noch weitere funktionen
+    und plugins. Bei wünschen kannst du mich
+    gerne anschreiben und mir voschläge und feedback
+    geben.
+
+
+
+
 Inhaltsverzeichnes:
 
     1. Installation
@@ -8,6 +22,14 @@ Inhaltsverzeichnes:
     4. Benutzen
     5. Ueber mich!
     6. Credits
+
+WICHTIG:
+
+    - Wenn du weiter plugins von mir installiert hast/vor hast. Stelle bitte sicher das du immer wenn du ein neues
+    plugin installiers, die requirements.txt vom alten plugin löscht bzw die requirements in die neue requirements.txt übernimmst.
+
+
+
 
 
 
@@ -18,6 +40,9 @@ Installation:
         - cd plugins
         - pip install -r requirements.txt
         - cd ..
+    2.5 Optional
+        - README.md löschen
+        - requirements.txt löschen
     3. Importieren
         - Siehe unten
 
@@ -25,14 +50,15 @@ Installation:
 
 Tools:
 
-    - Torch
-    - Pygame
     - Tkinter
     - FastAPI
+    - Torch
     - Tensorboard
-    - sys
-    - os
-    - Math
+    - Numpy
+    - Pandas
+    - Matplotlib
+    - Seaborn
+    - Scikit-Learn
 
 
 
@@ -43,6 +69,10 @@ Importieren:
 Benutzen:
 
     Taiwaow_v2.[Hier dein tool auswählen]
+
+    um die alte variante zu verwenden(kann zu fehlern führen):
+
+        - Taiwaow.[Dein Tool]
 
 
 
