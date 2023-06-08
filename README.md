@@ -2,14 +2,9 @@
 
 Ueber das Tool:
 
-    Mein ziel war es ein tool bzw ein plugin zu entwickeln,
-    was alle wichtigen DeepLearning/MaschinLearning plugins
-    und funktionen hat. Um schnellst möglich ein stabiles Model
-    zu haben.
-    Schaue es dir gerne mal an. In zukunft folgen noch weitere funktionen
-    und plugins. Bei wünschen kannst du mich
-    gerne anschreiben und mir voschläge und feedback
-    geben.
+    Hallo mein ziel ist es eine plugin alternative zu erstellen. In dem due verschiedene plugins verwenden kannst.
+    Z.b. ist das Taiwaow_dp_v2 da, es kann benutzt werden um DeepLearning zu erleichtern. Ebenfallse gibt es das Taiwaow_fe_v2
+    um leichte frontend frameworks zu nehmen. Mir ist klar das es nicht alle wie zb Django, Flask bietet. Ich bin dabei.
 
 
 
@@ -35,44 +30,45 @@ WICHTIG:
 
 Installation:
 
-    1. Plugins ordner in dein main verzeichnes legen
-    2. Requirements installieren
-        - cd plugins
-        - pip install -r requirements.txt
-        - cd ..
-    2.5 Optional
-        - README.md löschen
-        - requirements.txt löschen
-    3. Importieren
-        - Siehe unten
+    1. Plugin in denn plugins ordner legen
+    2. requirements.txt installieren
+    3. In den settings.py das plugin auf true setzen
+    3.5 Alle plugins die auf false sind werden nicht geladen
+    4. Importieren(siehe unten)
+    5. Benutzen(siehe unten)
 
 
 
 Tools:
 
-    - Tkinter
-    - FastAPI
-    - Torch
-    - Tensorboard
-    - Numpy
-    - Pandas
-    - Matplotlib
-    - Seaborn
-    - Scikit-Learn
+    Maiwaow_dp_v2:
+        - Tkinter
+        - FastAPI
+        - Torch
+        - Tensorboard
+        - Numpy
+        - Pandas
+        - Matplotlib
+        - Seaborn
+        - Scikit-Learn
+    Maiwaow_fe_v2:
+        - Tkinter
+        - Pygame
+
 
 
 
 Importieren:
 
-    from plugins.taiwaow import Taiwaow_v2
+    from plugins.inital import Taiwaow_dp_v2
+    oder
+    from plugins.inital import Taiwaow_[dp, fe]_v2
 
 Benutzen:
 
-    Taiwaow_v2.[Hier dein tool auswählen]
-
-    um die alte variante zu verwenden(kann zu fehlern führen):
-
-        - Taiwaow.[Dein Tool]
+    Taiwaow_dp_v2.[Hier dein tool auswählen]
+    oder
+    Taiwaow_[dp,fe]_v2.[Hier dein tool was du verwenden möchtest]
 
 
 

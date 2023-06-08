@@ -1,0 +1,9 @@
+tk
+fastapi
+torch
+tensorboard
+numpy
+pandas
+Matplotlib
+Seaborn
+scikit-learn
